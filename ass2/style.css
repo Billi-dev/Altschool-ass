@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b;
+    color: #2b2b2b;
+  }
+  
+  
+  /* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  } */
+  
+  .navbar {
+    background-color: #212121; /* Background color of the navbar */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  }
+  
+.logo {
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between links */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .nav-links a:hover {
+    background-color: #333; 
+    border-radius: 4px;
+    color: #fff;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    /* overflow: hidden; */
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+  }
+  
+  .hero {
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .hero p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .img-bb {
+    margin: 40px;
+  }
+  
+  .about, .media {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .about h2, .media h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .profile-pic {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  .fav-picc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fav-audio h3  {
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+  }
+  
+  .fav-audio audio {
+    display: block;
+   margin: 20px auto;
+  }
+  
+  .video {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
